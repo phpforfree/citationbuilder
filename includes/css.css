@@ -1,0 +1,210 @@
+input[type="text"] {
+	font-size: 14px;
+	padding: 3px;
+}
+
+input[type="text"]:focus {
+	color:#000;
+	outline:none;
+	border:#4C83AF 1px solid;
+	box-shadow: 0 0 5px rgba(76, 131, 175, 1);
+	-webkit-box-shadow: 0 0 5px rgba(76, 131, 175, 1);
+	-moz-box-shadow: 0 0 5px rgba(76, 131, 175, 1);
+}
+
+table {
+	border-collapse: separate !important;
+	border-spacing: 2px !important;
+}
+
+.styleheading {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.small {
+	font-size: 12px;
+	padding-left: 2px;
+}
+
+.sectionlabel {
+	font-size: 14px !important;
+	vertical-align: top;
+	padding-right: 15px !important;
+	padding-top: 6px !important;
+	text-align: right;
+	width: 180px;
+}
+
+.required {
+	color: #cc0000;
+}
+
+.addcontributor {
+	border-top: 1px solid #AAAAAA;
+	padding-top: 8px !important;
+	padding-bottom: 20px !important;
+	text-align: right;
+}
+
+.contribaddlink {
+	font-weight: bold;
+}
+
+.section {
+	background-color: #F0F0F0;
+	border-top: 1px solid #AAAAAA;
+}
+
+.sectionchild {
+	background-color: #F0F0F0;
+	border-left: 1px solid #AAAAAA;
+	border-right: 1px solid #AAAAAA;
+}
+
+.header {
+	background-color: #F0F0F0;
+	border-top: 1px solid #AAAAAA;
+	border-left: 1px solid #AAAAAA;
+	border-right: 1px solid #AAAAAA;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.footer {
+	background-color: #F0F0F0;
+	border-bottom: 1px solid #AAAAAA;
+	border-left: 1px solid #AAAAAA;
+	border-right: 1px solid #AAAAAA;
+	padding-bottom: 20px;
+}
+
+#change {
+	font-size: 12px;
+	padding-left: 3px;
+	padding-top: 9px;
+}
+
+.remove {
+	padding-top: 8px;
+	padding-left: 3px;
+}
+
+.submitclass {
+	margin-top: 20px;
+	background-color:#666666;
+	color:white;
+}
+
+.submitclass:hover {
+	margin-top: 20px;
+	background-color:#AAAAAA;
+	color:white;
+}
+
+.citationholder {
+	background-color: #ffa;
+	padding: 20px;
+	border-top: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+.placeholder {
+	display: none;
+}
+
+.sourcechangeholder {
+	display: none;
+	background: #FFFFFF;
+	z-index: 2;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-top: 1px solid #AAAAAA;
+	border-left: 1px solid #AAAAAA;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	padding: 20px;
+}
+
+.monthdropdown {
+	padding-top: 10px;
+}
+
+#mysourcewas {
+	font-weight: normal;
+	float: left;
+	padding-right: 5px;
+	padding-top: 4px;
+}
+
+#pagenccheck {
+	padding-top: 15px;
+	padding-left: 3px;
+}
+
+#stylechoice {
+	padding-top: 13px;
+	font-size: 14px;
+}
+
+.styleselected {
+	font-weight: bold;
+	color: #555555;
+}
+
+/*jQuery UI Tabs*/
+.ui-tabs .ui-tabs-panel {
+	padding: 0px;
+}
+
+.ui-widget-header {
+	background: #FFF;
+	border: 0px;
+}
+
+.ui-widget-content {
+	border: 0px;
+}
+
+.ui-corner-bottom {
+	border: 1pz solid #AAAAAA;
+}
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+	border: 1px solid #d3d3d3;
+	font-weight: normal;
+	color: #555555;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+	color: #555555;
+	text-decoration: none;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+	border: 1px solid #999999;
+	font-weight: normal;
+	color: #212121;
+}
+.ui-state-hover a, .ui-state-hover a:hover {
+	color: #212121;
+	text-decoration: none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	border: 1px solid #aaaaaa;
+	font-weight: normal;
+	color: #212121;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+	color: #212121;
+	text-decoration: none;
+}
+.ui-widget :active {
+	outline: none;
+}
