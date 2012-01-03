@@ -43,10 +43,10 @@ EXTENDING CITATION BUILDER
 
 Citation Builder only supports APA and MLA citation formats. In addition, Citation Builder only supports books (in entirety), chapters or essays from books, magazines, newspapers, scholarly journal articles, and web sites as citation mediums. Additional citation formats or citation mediums could be added to Citation Builder, if desired. Development and support of any and all additions to the Citation Builder framework are the responsibility of the developing entity. Feel free to fork the project.
 
-	RECOMMENDATIONS FOR ADDING ADDITIONAL FORMATS
-	--------------------------------------------
+RECOMMENDATIONS FOR ADDING ADDITIONAL FORMATS
+--------------------------------------------
 	
-		1. Store your format specific functions in an identifiable file in the directory: includes/formats/
-		2. Include the format specific functions file you created in #1 at the end of the file: includes/functions.php. The includes/functions.php file is a set of functions that any format/medium in Citation Builder can use.
-		3. Add the appropriate PHP logic to the end of the PHP switch cases in the file citationbuild.php to call the medium specific citation parsing functions you created in #1
-		4. Add your new format to the Citation Builder interface. This can be found as the first function in the file: includes/functions.php. The function is named: heading.
+	1. Store your format specific functions in an identifiable file in the directory: includes/formats/
+	2. Include the format specific functions file you created in #1 at the end of the file: includes/functions.php. The includes/functions.php file is a set of functions that any format/medium in Citation Builder can use.
+	3. Add the appropriate PHP logic to the end of the PHP switch cases in the file citationbuild.php to call the medium specific citation parsing functions you created in #1
+	4. Add your new format to the Citation Builder interface. This can be found as the first function in the file: includes/functions.php. The function is named: heading.
