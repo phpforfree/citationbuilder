@@ -17,7 +17,7 @@ ABOUT CITATION BUILDER
 
 Citation Builder is a web-based tool designed to quickly and easily generate citations for sources consulted during the research process. While powerful tools such as RefWorks, Zotero, and Endnote exist to generate citations, understanding how to use these tools can require an investment of time. Citation Builder is an attempt to provide a low-barrier method for users to generate citations for commonly consulted source media in either APA (American Psychological Association) or MLA (Modern Language Association) formats.
 
-For more information, visit our Github space at: http://github.com/phpforfree/Citation-Builder or the North Carolina State University project page at: http://www.lib.ncsu.edu/dli/projects/citationbuilder/
+For more information, visit our Github space at: http://github.com/phpforfree/citationbuilder or the North Carolina State University project page at: http://www.lib.ncsu.edu/dli/projects/citationbuilder/
 
 For a demo of Citation Builder, visit the North Carolina State University Libraries installation at: http://www.lib.ncsu.edu/citationbuilder/ 
 
