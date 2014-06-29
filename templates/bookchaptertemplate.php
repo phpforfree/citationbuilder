@@ -3,10 +3,19 @@
 	include ('includes/functions.php');
 	
 	//Save the variables passed in through the URL
-	$source = $_GET['source'];
-	$style = $_GET['style'];
-	if ($style=="") {
-		$style="mla7";
+	$source = null;
+	$style  = null;
+	
+	if (isset($_GET['source'])) {
+		$source = $_GET['source'];
+	}
+
+	if (isset($_GET['style'])) {
+		$style  = $_GET['style'];
+	}
+
+	if (!$style) {
+		$style = "mla7";
 	}
 	
 	//Heading
