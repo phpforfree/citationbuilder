@@ -18,6 +18,31 @@
 		$style = "mla7";
 	}
 	
+	//define the constants for correct the warnings
+	define("contributor", null);
+	define("no", null);
+	define("contributorfname0", null);
+	define("textbox", null);
+	define("none", null);
+	define("novalue", null);
+	define("contributormi0", null);
+	define("Anonymous", null);
+	define("articletitle", null);
+	define("contributorlname0", null);
+	define("yes", null);
+	define("articletitleinput", null);
+	define("websitetitle", null);
+	define("websitetitleinput", null);
+	define("publishersponsor", null);
+	define("publishersponsorinput", null);
+	define("urlsection", null);
+	define("urlwebsiteinput", null);
+	define("electronicpublish", null);
+	define("monthdropdown", null);
+	define("webaccessdate", null);
+	define("submitbutton", null);
+	define("submitclass", null);
+
 	//Heading
 	heading("Cite a web site", $source, $style);
 ?>
