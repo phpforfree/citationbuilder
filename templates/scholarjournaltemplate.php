@@ -35,6 +35,28 @@
     define("doiwebsiteinput", null);
     define("doidbinput", null);
     //specific constants
+    define("contributorlname0", null);
+    define("articletitle", null);
+    define("articletitleinput", null);
+    define("journaltitle", null);
+    define("journaltitleinput", null);
+    define("advancedinfo", null);
+    define("yearpublished", null);
+    define("yearpublishedinput", null);
+    define("pages", null);
+    define("startinput", null);
+    define("endinput", null);
+    define("nonconsecutivepagenumsinput", null);
+    define("nonconsecutiveinput", null);
+    define("checkbox", null);
+    define("urlsection", null);
+    define("urlwebsiteinput", null);
+    define("webaccessdate", null);
+    define("monthdropdown", null);
+    define("databasetitle", null);
+    define("databaseinput", null);
+    define("urldbinput", null);
+    define("dbaccessdate", null);
 
     //Heading
     heading("Cite a scholarly journal article", $source, $style);

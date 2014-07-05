@@ -44,8 +44,6 @@
     define("electronicpublish", null);
     define("monthdropdown", null);
     define("webaccessdate", null);
-    define("submitbutton", null);
-    define("submitclass", null);
 
     //Heading
     heading("Cite a web site", $source, $style);

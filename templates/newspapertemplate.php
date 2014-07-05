@@ -19,7 +19,7 @@
     }
 
     //define the constants for correct the warnings
-    //general constants
+    //general and specifics constants
     define("contributor", null);
     define("no", null);
     define("contributorfname0", null);
@@ -34,7 +34,42 @@
     define("doisection", null);
     define("doiwebsiteinput", null);
     define("doidbinput", null);
-    //specific constants
+    define("newspapertitle", null);
+    define("newspapertitleinput", null);
+    define("articletitle", null);
+    define("articletitleinput", null);
+    define("websitetitle", null);
+    define("websitetitleinput", null);
+    define("urlsection", null);
+    define("urlwebsiteinput", null);
+    define("electronicpublish", null);
+    define("monthdropdown", null);
+    define("webaccessdate", null);
+    define("dbnewspapercity", null);
+    define("dbnewspapercityinput", null);
+    define("dbdatepublisheddate", null);
+    define("dbedition", null);
+    define("dbeditioninput", null);
+    define("dbpages", null);
+    define("startinput", null);
+    define("endinput", null);
+    define("nonconsecutivepagenumsinput", null);
+    define("nonconsecutiveinput", null);
+    define("checkbox", null);
+    define("databasetitle", null);
+    define("databaseinput", null);
+    define("dbaccessdate", null);
+    define("urldbinput", null);
+    define("contributorlname0", null);
+    define("newspapercity", null);
+    define("newspapercityinput", null);
+    define("datepublisheddate", null);
+    define("datepublished", null);
+    define("edition", null);
+    define("editioninput", null);
+    define("section", null);
+    define("sectioninput", null);
+    define("pages", null);
 
     //Heading
     heading("Cite a newspaper article", $source, $style);
