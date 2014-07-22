@@ -71,6 +71,9 @@ function shortenmonth($month) {
 }
 
 //Ensure that ed. is at the end of edition (MLA)
+/**
+ * @param string $editioninput
+ */
 function editionabbrev($editioninput) { 
 	$mlaedition = preg_replace("/edition/", "ed.", $editioninput);
 	$mlaedition = preg_replace("/ed/", "ed.", $mlaedition);
@@ -423,6 +426,9 @@ function mlasjyearpublished($yearpublishedinput) {
 }
 
 //Format a book title (MLA)
+/**
+ * @param string $addpunctuation
+ */
 function mlabooktitleformat($booktitleinput, $addpunctuation) {
 	//Uppercase the words in book title
 	$html = uppercasewords($booktitleinput);
