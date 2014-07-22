@@ -3,6 +3,9 @@ Developed by Jason Walsh
 December 12, 2011
 
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/royopa/citationbuilder/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/royopa/citationbuilder/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/royopa/citationbuilder/badges/build.png?b=master)](https://scrutinizer-ci.com/g/royopa/citationbuilder/build-status/master)
+
 CONTENTS OF THIS FILE
 ------------------------------------
 
