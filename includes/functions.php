@@ -296,6 +296,7 @@
 
 	/**
 	 * @param string[] $regs
+	 * @param string $string
 	 */
 	function subtitleucfirst($string, $regs) {  
 		$ucaftercolon = strtoupper($regs[0]);
