@@ -29,6 +29,10 @@
 	/********************************/
 	
 	//Creates a checkbox and label div
+
+	/**
+	 * @param string $id
+	 */
 	function checkbox($id, $css) {
 		$html = '<input type="checkbox" id="' . $id . '" name="' . $id . '"';
 		$html .= ' class="' . $css . '" value="1" />';
@@ -36,6 +40,10 @@
 	}
 	
 	//Creates a month drop down list
+
+	/**
+	 * @param string $id
+	 */
 	function monthdropdown($id, $css) {
 		$html = '<div class="' . $css . '">';
 		$html .= '<select id="' . $id . '" name="' . $id . '">';
@@ -80,6 +88,10 @@
 	}
 	
 	//Creates a textbox and label div
+
+	/**
+	 * @param integer $size
+	 */
 	function textbox($id, $css, $size, $maxlength, $value) {
 		$html = '<input type="text" id="' . $id . '"';
 		$html .= ' name="' . $id . '"';
@@ -281,6 +293,11 @@
 	}
 	
 	//Uppercase the first word of a subtitle
+
+	/**
+	 * @param string[] $regs
+	 * @param string $string
+	 */
 	function subtitleucfirst($string, $regs) {  
 		$ucaftercolon = strtoupper($regs[0]);
 		$subtitleucfirst = preg_replace('/:[ ]+[a-z]/', "$ucaftercolon", $string);
@@ -288,6 +305,10 @@
 	}
 
 	//Remove articles (A, An, The) before a string
+
+	/**
+	 * @param string $string
+	 */
 	function removearticle($string) {
 		$patterns = array ('/A /', '/An /', '/The /');
 		$replacements = array ('');
@@ -296,6 +317,10 @@
 	}
 	
 	//Force articles, prepositions, and conjuctions to lowercase
+
+	/**
+	 * @param string $forcearticlelower
+	 */
 	function forcearticlelower($forcearticlelower) {
 		$forcearticlelower = str_replace(" A ", " a ", $forcearticlelower);
 		$forcearticlelower = str_replace(" An ", " an ", $forcearticlelower);

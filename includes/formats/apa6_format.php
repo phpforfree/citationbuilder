@@ -481,6 +481,9 @@ function articletitleapaformat($articletitleinput) {
 }
 
 //Format a book title (APA)
+/**
+ * @param string $addpunctuation
+ */
 function booktitleapaformat($booktitleinput, $addpunctuation) {
 	//Uppercase the first word in article title
 	$html = uppercasefirstword($booktitleinput);

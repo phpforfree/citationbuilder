@@ -1,7 +1,12 @@
+<http://citationbuilder.url.ph/>
+
 Citation Builder, version 1.0
 Developed by Jason Walsh
 December 12, 2011
 
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/royopa/citationbuilder/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/royopa/citationbuilder/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/royopa/citationbuilder/badges/build.png?b=master)](https://scrutinizer-ci.com/g/royopa/citationbuilder/build-status/master)
 
 CONTENTS OF THIS FILE
 ------------------------------------
@@ -47,6 +52,9 @@ RECOMMENDATIONS FOR ADDING ADDITIONAL FORMATS
 --------------------------------------------
 	
 	1. Store your format specific functions in an identifiable file in the directory: includes/formats/
-	2. Include the format specific functions file you created in #1 at the end of the file: includes/functions.php. The includes/functions.php file is a set of functions that any format/medium in Citation Builder can use.
-	3. Add the appropriate PHP logic to the end of the PHP switch cases in the file citationbuild.php to call the medium specific citation parsing functions you created in #1
-	4. Add your new format to the Citation Builder interface. This can be found as the first function in the file: includes/functions.php. The function is named: heading.
+	2. Include the format specific functions file you created in #1 at the end of the file: includes/functions.php. The includes/functions.php file is a set of functions that 
+any format/medium in Citation Builder can use.
+	3. Add the appropriate PHP logic to the end of the PHP switch cases in the file 
+citationbuild.php to call the medium specific citation parsing functions you created in #1
+	4. Add your new format to the Citation Builder interface. This can be found as the 
+first function in the file: includes/functions.php. The function is named: heading.
